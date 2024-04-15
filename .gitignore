@@ -1,2 +1,6 @@
 
 *.DS_Store
+*.meta
+example01_osc_receiver/OscReceiver/Library/
+example01_osc_receiver/OscReceiver/UserSettings/EditorUserSettings.asset
+example01_osc_receiver/OscReceiver/UserSettings/Layouts/default-2021.dwlt
