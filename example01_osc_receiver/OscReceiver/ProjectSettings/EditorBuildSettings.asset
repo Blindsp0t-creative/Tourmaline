@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tourmaline_OscReceiver.unity
+    guid: 1d49ac4b8e615495084fbb2519f8ba4f
   m_configObjects: {}

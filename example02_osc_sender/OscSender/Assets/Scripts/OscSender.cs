@@ -13,12 +13,7 @@ public class OscSender : MonoBehaviour
 
     public void Start()
     {
-        OscMessage msg = new OscMessage();
-        msg.address = "/Tourmaline/im_up";
-        msg.values.Add(1);
-        master.Send(msg);
 
-        monitorText.text = "\n " + nbMessage + " message OSC envoyé. ";
     }
 
     public void sendMessageHelloWorld()
@@ -30,6 +25,24 @@ public class OscSender : MonoBehaviour
         master.Send(msg);
                 
         monitorText.text = "\n " + nbMessage + " messages OSC envoyé. ";
+    }
+
+    public void sendMessagePlaySound()
+    {
+        OscMessage msg = new OscMessage();
+        msg.address = "/Tourmaline/playsound";
+        master.Send(msg);
+                
+        monitorText.text = "\n trigger sound message.";
+    }
+
+    public void sendMessageShowVideo()
+    {
+        OscMessage msg = new OscMessage();
+        msg.address = "/Tourmaline/showvideo";
+        master.Send(msg);
+                
+        monitorText.text = "\n trigger video message.";
     }
 }
 

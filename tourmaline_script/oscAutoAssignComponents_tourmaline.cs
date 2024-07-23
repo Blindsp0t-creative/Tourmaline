@@ -1,3 +1,10 @@
+
+// TOURMALINE
+// Unity script by Blindsp0t : www.blindsp0t.com
+// Tested in Unity 2022
+
+
+
 using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
